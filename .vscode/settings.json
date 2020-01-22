@@ -4,9 +4,5 @@
 	"python.linting.pycodestyleEnabled": false,
 	"python.linting.pylintPath": "pylint",
 	"python.linting.pylintArgs": ["--load-plugins", "pylint_django", "--errors-only"],
-	"python.linting.pylintEnabled": true,
-	"python.linting.enabled": true,
-	"files.associations": {
-		"iostream": "cpp"
-	}
+	"python.linting.pylintEnabled": true
 }

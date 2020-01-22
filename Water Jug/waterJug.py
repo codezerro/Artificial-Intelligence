@@ -2,7 +2,7 @@
 from collections import deque
 
 
-def waterJug(jug1, jug2, goal):
+def waterjug(jug1, jug2, goal):
     # dictonary  for store unique value
     map = {}
     # queue store the and dequeue --> list
@@ -68,7 +68,7 @@ def waterJug(jug1, jug2, goal):
         queue.append((jug1, 0))
 
 
-waterJug(4, 3, 2)
+waterjug(4, 3, 2)
 
 
 # u = first

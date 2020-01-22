@@ -46,8 +46,9 @@ def WaterJug(jug1, jug2, goal):
             # print("get the solutions", first[0], first[1])
             # print the solutions
             for val in range(len(path)):
-                print(path[val])
+                print(path[val][0], path[val][1])
             # print(path)
+            return path
             break
 
         x = first[0]
